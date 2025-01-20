@@ -5,6 +5,8 @@
     margin: 0;
     font-family: "Quicksand";
 }
+/* NAVIGATION */
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -14,6 +16,7 @@
     justify-content: space-around;
 }
 .nav-logo{
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -55,18 +58,67 @@
     background-color: #FEA301;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
 .menu-icon{
     display: none;
     cursor: pointer;
 }
 .menu-icon-lines{
+    cursor: pointer;
     display: block;
     width: 30px;
     height: 2px;
     background-color: black;
     margin: 5px 0;
 }
+
+/* BANNER SECTION */
+
+.banner{
+    display: flex;
+    max-width: 1366px;
+}
+.banner-container{
+    margin-left: auto;
+    display: flex;
+    width: 77%;
+    gap: 20px;
+}
+.banner-content-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 24px;
+}
+.banner-title{
+    font-size: 52px;
+}
+.banner-img-container{
+    overflow: hidden;
+}
+.banner-img{
+    margin-right: -5px;
+
+}
+.black-btn{
+    padding: 10px 15px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+/* MEDIA QUERY */
+
 @media screen and (max-width: 576px){
     .navbar{
         justify-content: space-between;
@@ -86,4 +138,4 @@
     .menu-icon{
         display: block;
     }
-}
+    /* banner */
