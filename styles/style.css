@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand";
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo{
+    width: 3.5rem;
+}
+
+.nav-links > ul{
+    display: flex;
+    gap: 35px;
+}
+.nav-links li{
+    list-style: none;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text-orange{
+    color: #FEA301;
+}
+.text-blue{
+    color: #01ACFD;
+}
+.text-purple{
+    color: #5D58EF;
+}
+.text-light-blue{
+    color: #68A2DF;
+}
+.nav-btn{
+    padding: 10px 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FEA301;
+    color: white;
+    border-radius: 10px;
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+.menu-icon-lines{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+}
+@media screen and (max-width: 576px){
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 20px;
+        width: calc(100% - 40px);
+        border-bottom: 1px solid #fea10175;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-title{
+        display: none;
+    }
+    .nav-btn-container{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
