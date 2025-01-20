@@ -140,4 +140,34 @@
     }
     /* banner */
     
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 95%;
+    }
+    .banner-img-container{
+        overflow:visible;
+    }
+    .banner-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner-content-container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-content > button{
+        margin: 0 auto;
+    }
+    .banner-desc{
+        font-weight: 500;
+   
+    }
 }
