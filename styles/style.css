@@ -139,6 +139,7 @@
     margin: 0 auto;
     justify-content: center;
     gap: 40px;
+    
 }
 
 .curriculum-card{
@@ -152,51 +153,43 @@
     text-align: center;
     align-items: center;
     gap: 30px;
-    padding-bottom: 40px;    
+    padding: 40px 0;  
+
 
 
 }
 .kinder-scl{
-
+    background-image: linear-gradient(#01adfd1f, white);
 }
 .elem-scl{
+    background-image: linear-gradient(#ffc7677c, white);
     border: 1px solid #f1be647c;
 }
 
 .middle-scl{
+    background-image: linear-gradient(#9b97f86b , white );
     border: 1px solid #8582e76b;
 }
-
-
-.kinder-scl .cur-img{
-    padding-top: 50px;
-    width: 100%;
-    height: 200px;
-    background-image: linear-gradient(#01ecfd1f, rgba(255, 255, 255, 0));
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-top: -3px;
+.curriculum-arrow{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 10%;
+    margin: 0 auto;
 }
-
-.elem-scl .cur-img{
-    padding-top: 50px;
-    width: 100%;
-    height: 200px;
-
-    background-image: linear-gradient(#f1be647c, white);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    
+.curriculum-arrow > button{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 50px;
+    margin: 30px 0 150px;
 }
-.middle-scl .cur-img{
-    padding-top: 50px;
-    width: 100%;
-    height: 200px;
-    background-image: linear-gradient(#8582e76b, white);
-    margin-top: 0;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    
+.curriculum-arrow > button:hover{
+    background-color: #ffb432;
 }
 
 .cur-card-title{
@@ -265,5 +258,25 @@
     .banner-desc{
         font-weight: 500;
    
+    }
+
+    /* curriculum */
+
+    .curriculum-container{
+        flex-direction: column;
+        width: 92%;
+        gap: 10px;
+    }
+    .curriculum-title{
+        font-size: 30px;
+    }
+    .curriculum-card{
+        width: 100%;
+    }
+    .curriculum-arrow{
+        display: none;
+    }
+    .standard-curriculum{
+        margin-bottom: 160px;
     }
 }
