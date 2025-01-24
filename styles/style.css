@@ -142,6 +142,7 @@
     
 }
 
+
 .curriculum-card{
     background-color: white;
     border: 1px solid #01adfd59;
@@ -205,6 +206,91 @@
     font-size: 20px;
     font-weight: 800;
 }
+
+/* OUR STORIES */
+
+.our-stories{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/bg.png), linear-gradient(to top, #fea10169, white);
+    text-align: center;
+}
+.our-stories-container{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+    flex-direction: column;
+}
+.story-container{
+    display: flex;
+    gap: 20px;
+}
+.sect-1{
+    width: 70%;
+}
+#story-large{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: start;
+}
+.story-content-large{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.story-content-large > p{
+    color: #808080;
+}
+.story-content{
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.story-btn-large{
+    width: 60%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #01d7fd;
+    color: white;
+    margin-top: -55px;
+}
+.story-btn{
+    width: 60%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #62ad0d;
+    color: white;
+    margin-top: -30px;
+}
+.story-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#large-story-img{
+    width: 100%;
+}
+.our-stories-container > h1{
+    font-size: 50px;
+}
+.sect-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.story{
+    background-color: white;
+    border-radius: 20px;
+    text-align: start;
+
+}
+
 /* FOOTER */
 .footer{
     display: flex;
@@ -236,7 +322,7 @@
 }
 .footer a{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     color: white;
 }
 .footer ul{
@@ -341,6 +427,36 @@ li{
     .standard-curriculum{
         margin-bottom: 160px;
     }
+
+    /* OUR STORIES */
+
     /* FOOTER */
+    .footer{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-container{
+        display:flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 92%;
+    }
+    .footer-content{
+        width: 100%;
+    }
+    .footer-content > p{
+        width: 92%;
+    }
+    .footer-about{
+        width: 100%
+    }
+    .footer-about > h2{
+        margin-bottom: 30px;
+    }
+    .footer-social{
+        gap: 50px;
+    }
+
 
 }
